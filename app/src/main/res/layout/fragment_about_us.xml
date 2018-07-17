@@ -1,0 +1,98 @@
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topx"
+        >
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:text="About Developer Of Application"
+           android:textColor="#33001a"
+           android:textSize="22sp"
+           android:id="@+id/titleapp"
+           />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topx"
+        android:id="@+id/topy"
+        >
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:src="@drawable/jam"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/topy"
+    android:layout_marginTop="14dp"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:textColor="#212121"
+        android:text="Name:-"
+android:paddingLeft="5dp"
+android:id="@+id/name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/name"
+        android:text="Jaimin Rathod"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:textColor="#212121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edu"
+        android:layout_below="@id/name"
+        android:text="Education:-"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studying B.Tech(Computer Engineer) From SVNIT"
+        android:layout_toRightOf="@+id/edu"
+        android:layout_below="@+id/name"
+        android:paddingLeft="5dp"
+
+        />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
